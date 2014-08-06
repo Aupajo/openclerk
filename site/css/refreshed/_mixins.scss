@@ -1,0 +1,13 @@
+@mixin reset-list {
+  list-style-type: none;
+
+  li {
+    margin: 0;
+  }
+}
+
+@mixin dark {
+  a {
+    @include dark-links;
+  }
+}

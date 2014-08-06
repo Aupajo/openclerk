@@ -1,12 +1,28 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 // Palette
+$coal: #222;
 $dark-grey: #424242;
 $light-grey: #dfdfdf;
 $pastel-blue: #0098FF;
+$pastel-orange: #f2d47c;
 
 // Typography
 $sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $normal-font-size: 12pt;
 $normal-font-weight: 400;
 $normal-line-height: 1.6em;
+
+// Links
+
+@mixin light-links {
+  &:link, &:visited {
+    color: $pastel-blue;
+  }
+}
+
+@mixin dark-links {
+  &:link, &:visited {
+    color: $pastel-orange;
+  }
+}

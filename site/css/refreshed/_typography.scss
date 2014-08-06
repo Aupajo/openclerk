@@ -8,11 +8,9 @@ body {
 
 a {
   text-decoration: none;
-
-  &:link, &:visited {
-    color: $pastel-blue;
-  }
+  @include light-links;
 }
+
 
 hr {
   border: 0;
@@ -35,6 +33,7 @@ li {
 
 th {
   font-weight: bold;
+  text-align: left;
 }
 
 th, td {

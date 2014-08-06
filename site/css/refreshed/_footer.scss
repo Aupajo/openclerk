@@ -1,0 +1,27 @@
+body > footer {
+  @include dark;
+  background: $coal;
+  color: $light-grey;
+  padding: 2em 0;
+
+  ul {
+    @include reset-list;
+  }
+
+  & > ul {
+    @include outer-container;
+    padding-bottom: 2em;
+
+    & > li {
+      @include span-columns(3);
+    }
+  }
+
+  #copyright {
+    font-size: 0.8em;
+  }
+
+  #copyright, .donate {
+    text-align: center;
+  }
+}

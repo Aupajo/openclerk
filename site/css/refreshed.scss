@@ -10,9 +10,13 @@
 // Use Neat grid framework
 @import 'neat/neat';
 
+// Mixins
+@import "refreshed/mixins";
+
 // Global styles
 @import "refreshed/typography";
 
 // Specific component styles
 @import "refreshed/page";
 @import "refreshed/navigation";
+@import "refreshed/footer";
