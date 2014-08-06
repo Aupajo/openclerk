@@ -1,0 +1,17 @@
+// Normalize browser styles
+@import "refreshed/reset";
+
+// Global settings
+@import "refreshed/settings";
+
+// Use Bourbon mixin library
+@import 'bourbon/bourbon';
+
+// Use Neat grid framework
+@import 'neat/neat';
+
+// Global styles
+@import "refreshed/typography";
+
+// Specific component styles
+@import "refreshed/page"

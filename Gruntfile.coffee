@@ -17,6 +17,8 @@ module.exports = (grunt) ->
         stopOnFailure: true
 
     sass:
+      options:
+        bundleExec: true
       dist:
         files: [{
           expand: true
