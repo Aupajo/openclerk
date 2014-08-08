@@ -89,6 +89,6 @@
 <?php require(__DIR__ . "/_supported.php"); ?>
 </div>
 
-<div class="banner">
+<div class="screenshot-strip">
 	<a href="<?php echo htmlspecialchars(url_for('screenshots')); ?>" title="<?php echo ht("Screenshots"); ?>"><img src="<?php echo htmlspecialchars(url_for('img/screenshots/banner2_small.png')); ?>" alt="<?php echo ht("Example reports and graphs"); ?>"></a>
 </div>

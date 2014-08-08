@@ -1,7 +1,5 @@
 body > footer {
-  @include dark;
-  background: $coal;
-  color: $light-grey;
+  border-top: 1px solid $light-grey;
   padding: 2em 0;
 
   ul {

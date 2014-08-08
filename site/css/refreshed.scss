@@ -18,5 +18,8 @@
 
 // Specific component styles
 @import "refreshed/page";
-@import "refreshed/navigation";
+@import "refreshed/header";
 @import "refreshed/footer";
+
+// Specific pages
+@import "refreshed/pages/home";

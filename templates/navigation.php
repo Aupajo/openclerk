@@ -1,4 +1,5 @@
-<nav>
+<header>
+  <nav>
     <span class="home"><a href="<?php echo url_for('index'); ?>" title="<?php echo htmlspecialchars(get_site_config('site_name')); ?>"><span class="text"><?php echo htmlspecialchars(get_site_config('site_name')); ?></span></a></span>
     <?php if (user_logged_in()) { ?>
       <span class="profile"><a href="<?php echo url_for('profile'); ?>" title="<?php echo ht("Your Reports"); ?>"><span class="text"><?php echo ht("Your Reports"); ?></span><span class="responsive-text"><?php echo ht("Reports"); ?></span></a></span>
@@ -15,4 +16,5 @@
     <?php } ?>
     <span class="premium"><a href="<?php echo url_for('premium'); ?>" title="<?php echo ht("Premium"); ?>"><span class="text"><?php echo ht("Premium"); ?></span></a></span>
     <span class="help"><a href="<?php echo url_for('help'); ?>" title="<?php echo ht("Help"); ?>"><span class="text"><?php echo ht("Help"); ?></span></a></span>
-</nav>
+  </nav>
+</header>
